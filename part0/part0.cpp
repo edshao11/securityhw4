@@ -8,9 +8,11 @@ int main()
 {
     int n(0);
     cout << "please enter a positive integer: " << endl;
-    cin >> n long val = factorial(n);
+    cin >> n;
+    long val = factorial(n);
     cout << "The factorial is: " << val << endl;
-    cin.get() return 0;
+    cin.get();
+    return 0;
 }
 
 long factorial(int n)
