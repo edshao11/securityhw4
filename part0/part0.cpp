@@ -18,7 +18,7 @@ int main()
 long factorial(int n)
 {
     long result(1);
-    while (n--)
+    while (--n)
     {
         result *= n;
     }
