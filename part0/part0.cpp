@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 long factorial(int n);
 int main()
@@ -15,9 +14,9 @@ int main()
 long factorial(int n)
 {
     long result(1);
-    while (n−−)
+    while (n--)
     {
-        result∗= n;
+        result *= n;
     }
     return result;
 }
